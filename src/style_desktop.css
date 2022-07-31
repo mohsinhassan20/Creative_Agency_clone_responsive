@@ -2,13 +2,73 @@
 /*767-1024*/
 @media screen  and (max-width:770px)   {
 #slider {
-    width: 389%;
-    height: 1200px;
+    width: 391%;
+    height: 2410px;
     position: relative;
-    top: -307px;
-    margin: 50px 0px -273px 44px;
+    top: -255px;
+    margin: 6px 0px 0px 43px;
     background-image: url("	https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/55299d1b0108cf394df61d5a_sheep.jpeg");
     background-size: cover;
+    z-index: -1;
+}
+span
+{
+     display: flex;
+
+}
+nav
+{
+  display: none;
+}
+.fa, .fa.fa-bars {
+    color: white;
+    position: relative;
+    top: 155px;
+    left: 2635px;
+    font-size: 98px;
+}
+.text
+{
+     color: white;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: inherit;
+    position: relative;
+    top: 620px;
+    right: 320px;
+
+}
+.text h1
+{
+     font-family: 'Montserrat',sans-serif;
+    font-weight: 800;
+    font-size: 99px;
+    line-height: 91px;
+    text-align: right;
+    position: relative;
+    left: 239px;
+
+}.text h3 {
+    font-size: 47px;
+    font-style: italic;
+    text-align: right;
+    font-weight: 600;
+    position: relative;
+    left: 255px;
+    Vollkorn,: ;
+    font-family: sans-serif;
+    font-family: Vollkorn, serif;
+}
+#logo
+{
+     width: 250px;
+    height: 250px;
+    position: relative;
+    top: 45px;
+    left: 115px;
+
 }
 .about {
     display: grid;
