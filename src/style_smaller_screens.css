@@ -1,0 +1,311 @@
+smaller screens
+@media screen and (min-width: 320px) and (max-width: 388px) {
+  #logo {
+    width: 50px;
+    height: 37px;
+    margin-top: -8px;
+    z-index: 12;
+    background: black;
+    margin-left: 29px;
+  }
+  span {
+    display: flex;
+    max-width: 304px;
+    margin-top: 25px;
+    position: relative;
+  }
+  nav > a {
+    display: none;
+  }
+
+  .fa.fa-bars:hover {
+    cursor: pointer;
+  }
+  .w3-center {
+    display: none;
+  }
+  .dp-slider {
+    position: absolute;
+    font-size: 22px;
+    margin-left: 169px;
+    margin-top: 168px;
+    font-weight: bold;
+    max-width: 192px;
+    color: white;
+  }
+  .sub-tag {
+    font-size: 12px;
+    max-width: 175px;
+    color: white;
+    position: relative;
+    top: 240px;
+    margin-left: 159px;
+    font-weight: bold;
+  }
+
+  .gi-1 {
+    display: none;
+  }
+  .dp-slider2 {
+    display: none;
+  }
+  .mySlides {
+    display: block;
+    position: absolute;
+    top: -27px;
+    z-index: -21;
+    max-width: 359px;
+    height: 387px;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-right: 5px;
+  }
+  h2,
+  h3,
+  h5 {
+    text-align: center;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 25px;
+  }
+  p {
+    max-width: 305px;
+    font-size: 8px;
+    margin: 0 auto;
+  }
+  .button {
+    height: 46px;
+    font-size: 8px;
+    width: 125px;
+    margin: 15px;
+    margin-left: 30px;
+    border-radius: 0px;
+  }
+
+  .flex img {
+    margin-left: 125px;
+    margin-top: 22px;
+    width: 125px;
+  }
+  .br-h {
+    text-align: center;
+    font-weight: bold;
+    line-height: 2px;
+    font-size: 23px;
+  }
+  div.brandings > .service1 > img {
+    width: 50px;
+  }
+  #footer-img {
+    width: 64px;
+    height: 42px;
+    margin-top: 30px;
+  }
+  .footer-div {
+    max-width: 350px;
+    margin-left: 5px;
+    background: black;
+    margin-left: 16px;
+  }
+  #menu,
+  #contact-footer,
+  #address {
+    color: whitesmoke;
+  }
+
+  #contact-footer {
+    margin-left: 10px;
+  }
+  .footer-text {
+    color: white;
+    text-align: center;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+  }
+  .label {
+    text-align: center;
+  }
+  .contact-form,
+  #email-form {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .portfolio {
+    display: grid;
+    grid-template-columns: 186px 100px;
+    margin-left: 12px;
+    row-gap: 15px;
+  }
+
+  .pf-card {
+    width: 156px;
+    margin-left: 1px;
+    background: antiquewhite;
+    height: 140px;
+  }
+  .pf-card img {
+    width: 170px;
+    height: 145px;
+  }
+  .pf-card h5 {
+    max-width: 153px;
+    font-size: 10px;
+    /* font-style: ; */
+    font-family: "Montserrate";
+    font-weight: bold;
+    font-style: italic;
+    overflow: hidden;
+    margin-bottom: -9px;
+  }
+  .pf-quote {
+    line-height: 24px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 9px;
+  }
+  .latest-creations {
+    display: none;
+  }
+  .form-n-text {
+    margin-top: 25px;
+  }
+
+  .quotes-heading,
+  h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #333;
+    text-align: center;
+    font-size: 10px;
+    max-width: 363px;
+  }
+  .author {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #333;
+    text-align: center;
+    font-size: 10px;
+    max-width: 363px;
+  }
+
+  .quotes-h {
+    font-family: Montserrat, sans-serif;
+
+    line-height: 21px;
+    text-align: center;
+  }
+  .bradings {
+    margin-bottom: 13px;
+  }
+  .flex {
+    background-color: #f2f2f2;
+    width: 340px;
+    margin-left: 10px;
+  }
+  .gi-2 {
+    background-color: #f2f2f2;
+  }
+  .data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card4 img {
+    width: 335px;
+    height: 200px;
+    margin-left: 17px;
+  }
+
+  .about {
+    position: relative;
+    top: 275px;
+  }
+  .figures {
+    position: relative;
+    top: 295px;
+  }
+  .services {
+    position: relative;
+    top: 315px;
+  }
+
+  .quotes {
+    position: relative;
+    position: relative;
+    top: 355px;
+  }
+  .saying {
+    position: relative;
+    top: -15px;
+  }
+  .portfolio {
+    display: grid;
+    grid-template-columns: 186px 100px;
+    margin-left: 12px;
+    row-gap: 15px;
+    position: relative;
+    top: 377px;
+  }
+  #contact {
+    display: grid;
+    grid-template-columns: 186px 100px;
+    margin-left: 12px;
+    row-gap: 15px;
+    position: relative;
+    top: 377px;
+  }
+  .footer-div {
+    max-width: 350px;
+    margin-left: 5px;
+    background: black;
+    margin-left: 16px;
+    position: relative;
+    top: 395px;
+  }
+  .h-contact {
+    text-align: center;
+    font-weight: bold;
+    max-width: 155px;
+    font-size: 20px;
+    margin-left: 11px;
+    margin-top: 23px;
+  }
+  .we-app {
+    font-family: Vollkorn, serif;
+    font-size: 11px;
+  }
+  #contact {
+    display: grid;
+    grid-template-columns: 186px 100px;
+    margin-left: 106px;
+    row-gap: 15px;
+    position: relative;
+    top: 377px;
+  }
+  .button-submit {
+    margin-left: 47px;
+  }
+  .mySlides {
+    display: block;
+    position: absolute;
+    top: -23px;
+    height: 26rem;
+  }
+  .fa.fa-bars {
+    margin-left: 221px;
+    margin-top: 3px;
+
+  }
+}
+

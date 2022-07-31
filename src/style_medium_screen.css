@@ -1,0 +1,42 @@
+
+@media screen and (max-width:1024px) {
+
+ .text h1 {
+    margin-left: 372px;
+    margin-top: 19px;
+}
+#slider {
+  width: 300px;
+  margin: 5px 5px 5px 5px;
+  position: absolute;
+  top: 0px;
+}
+
+
+.fa-solid, .fas {
+     position: relative;
+    top: -19px;
+}.card {
+    align-items: center;
+    width: 141%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container {
+    grid-template-columns: 57%  67%;
+    display: grid;
+    row-gap: 8px;
+    column-gap: 9px;
+}
+.figure {
+    width: 150px;
+ }
+ .portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 22px;
+}
+}
+
+ 
